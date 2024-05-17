@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import useInventario from '../hook/useProveedor';
+import useProveedor from '../hook/useProveedor';
 
 const ListaProveedores = () => {
-    const proveedores = useInventario();
+    const proveedores = useProveedor();
 
     return (
         <div className="container">
