@@ -1,15 +1,14 @@
 import { useState, useEffect } from 'react';
 import datosProveedor from '../datos/proveedores.json';
 
-// Hook personalizado 
 const useProveedor = () => {
-    const [inventario, setProveedor] = useState([]);
+    const [proveedor, setProveedor] = useState([]);
 
     useEffect(() => {
         setProveedor(datosProveedor); 
     }, []);
 
-    return inventario;
+    return proveedor;
 };
 
 export default useProveedor;

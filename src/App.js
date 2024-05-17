@@ -1,8 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './componentes/Layout';
-
-
 import PaginaPrincipal from './componentes/PaginaPrincipal';
 import ListaInventario from './componentes/ListaInventario';
 import DetalleInventario from './componentes/DetalleInventario';
@@ -15,8 +13,7 @@ import PaginaNoEncontrada from './componentes/PaginaNoEncontrada';
 
 const App = () => {
   return (
-    <Router>
-      
+    <Router>  
       <Routes>
             <Route path="/" element={<Layout />} >
                 <Route index element={<PaginaPrincipal />} />
@@ -29,7 +26,6 @@ const App = () => {
                 <Route path="*" element={<PaginaNoEncontrada />} />
             </Route>    
       </Routes>
-      
     </Router>
   );
 };

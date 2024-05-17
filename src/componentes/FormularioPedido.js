@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-// Componente para el formulario de pedidos
 const FormularioPedido = () => {
     const [pedido, setPedido] = useState({ cantidad: '', producto: '' });
 
