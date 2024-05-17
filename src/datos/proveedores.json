@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nombre": "Proveedor A",
+        "direccion": "Calle 123, Ciudad X",
+        "telefono": "123-456-7890",
+        "email": "contacto@proveedora.com"
+    },
+    {
+        "id": 2,
+        "nombre": "Proveedor B",
+        "direccion": "Avenida 456, Ciudad Y",
+        "telefono": "987-654-3210",
+        "email": "info@proveedorb.com"
+    },
+    {
+        "id": 3,
+        "nombre": "Proveedor C",
+        "direccion": "Carretera 789, Ciudad Z",
+        "telefono": "456-789-1234",
+        "email": "ventas@proveedorc.com"
+    }
+]

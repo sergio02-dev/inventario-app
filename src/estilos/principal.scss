@@ -1,0 +1,94 @@
+// Estilos globales para la aplicación
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+// Estilos globales para asegurar que el contenido principal empuje el footer al final de la página
+html, body {
+    height: 100%; // Permite que la altura mínima de la página sea la altura de la ventana
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column; // Organiza los hijos de root en columna
+    min-height: 100%; // Asegura que el contenedor tenga al menos la altura de la ventana
+}
+
+
+// Estilos para el layout completo
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; // Asegura que el layout ocupe al menos la altura completa de la ventana
+    
+}
+
+// Estilos para la barra de navegación
+.navbar {
+    background-color: #343a40; // Igual que la barra de navegación para consistencia
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+// Estilos para el pie de página
+.footer {
+    background-color: #343a40; // Igual que la barra de navegación para consistencia
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+// Estilos para el contenido principal
+.content {
+    flex: 1; // Permite que el contenido se expanda para ocupar cualquier espacio vertical disponible
+    padding: 20px;
+    background-color: #ffffff; // Fondo blanco para el contenido principal
+    color: #212529; // Texto oscuro para un buen contraste
+}
+// Estilos para la barra de navegación
+.navbar {
+    background-color: #343a40; // Gris oscuro
+    color: #ffffff; // Texto blanco para alto contraste
+
+    .nav-link {
+        color: #f8f9fa; // Asegúrate de que los enlaces son claros y visibles
+
+        &:hover {
+            color: #cbd3da; // Un gris más claro para el hover
+        }
+    }
+
+    .navbar-brand {
+        color: #ffffff; // Color blanco para el logo o título de la app
+
+        &:hover {
+            color: #cbd3da; // Un gris más claro para el hover
+        }
+    }
+}
+
+.formulario-custom {
+    max-width: 600px; // Limita el ancho del formulario
+    margin: auto; // Centra el formulario horizontalmente
+  }
+  
+  .formulario-custom .btn {
+    display: block; // Hace que el botón sea un bloque
+    width: 50%; // Ancho del botón
+    margin: 20px auto 0; // Centra el botón horizontalmente y añade espacio arriba
+  }
+  
+
+
